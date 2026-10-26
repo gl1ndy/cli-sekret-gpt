@@ -1,0 +1,8 @@
+name = "groq-password-api"
+main = "src/index.js"
+compatibility_date = "2026-10-26"
+
+# Не записывайте секреты сюда. Добавьте их через `wrangler secret put`.
+# Опционально можно задать другую модель:
+# [vars]
+# GROQ_MODEL = "qwen/qwen3.8-27b"
